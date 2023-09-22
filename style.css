@@ -108,6 +108,7 @@ li.profile{
     font-size: 20px;
     color: #E6F7FF;
     font-weight: 700;
+    cursor: pointer;
 }
 .cartoon *{
     box-sizing: border-box;
@@ -431,10 +432,13 @@ footer .sosmed{
     width: 100px;
     height: 100px;
     cursor: pointer;
+    color: #F9FBFD;
+    font-size: 70px;
+    font-weight: 900;
     z-index: 4;
 }
-.popup-container {
-    /* display: none; */
+#popup-container {
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -442,23 +446,23 @@ footer .sosmed{
     padding: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    z-index: 5;
+    z-index: 7;
     border-radius: 10px;
 }
-.popup-container .content{
+#popup-container .content{
     display: flex;
     align-items:center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
 }
-.popup-container #Form-aduan{
+#popup-container #Form-aduan{
     display: flex;
     align-items:flex-start;
     justify-content: flex-start;
     flex-direction: column;
 }
-.popup-container #Form-aduan button{
+#popup-container #Form-aduan button{
     height: 30px;
     padding: 2px 16px;
     background-color: #002766;
